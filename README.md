@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📦 Smart Inventory Manager
+The Smart Inventory Manager is a Next.js React-based application designed for small businesses to efficiently manage their inventory. With real-time tracking, demand predictions, and more, this app provides all the essential tools to stay on top of stock management.
 
-## Getting Started
+🌟 Features
+⏱️ Real-time Inventory Tracking
+Stay updated with real-time inventory changes (mock data simulation).
 
-First, run the development server:
+🔍 Product List with Search Functionality
+Easily find products in your inventory with a dynamic search feature.
 
-```bash
+📈 Sales Trends Visualization
+Visualize sales trends and performance of products over time.
+
+🚨 Automated Restocking Alerts
+Get notified when product levels are low and require restocking.
+
+📊 Demand Prediction for Top Products
+Predict demand for your best-selling items to plan stock levels effectively.
+
+🛠️ Technologies Used
+Next.js
+Framework for server-side rendering and fast web applications.
+
+React Hooks
+Manage state and lifecycle events effectively within functional components.
+
+Mock API Calls
+Simulated API interactions for a smooth development experience.
+
+Chart.js
+For visualizing sales trends and performance metrics.
+
+🚀 Getting Started
+Prerequisites
+Node.js
+Ensure you have Node.js installed.
+
+NPM or Yarn
+Use a package manager to install dependencies.
+
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/smart-inventory-manager.git
+cd smart-inventory-manager
+Install dependencies:
+
+bash
+Copy code
+npm install
+Run the development server:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Access the application at http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎨 Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![DASHBOARD](https://github.com/gidi007/smart-inventory-manager/blob/main/screenshots/dashboard.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![PRODUCTS](https://github.com/gidi007/smart-inventory-manager/blob/main/screenshots/products.png)
 
-## Learn More
+![STOCK ORDER](https://github.com/gidi007/smart-inventory-manager/blob/main/screenshots/Stock%20Order.png)
 
-To learn more about Next.js, take a look at the following resources:
+![SALES TRENDS](https://github.com/gidi007/smart-inventory-manager/blob/main/screenshots/Sales%20trend.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![DEMAND PREDICTION ](https://github.com/gidi007/smart-inventory-manager/blob/main/screenshots/Demand%20prediction.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+🏗️ Future Features
+📦 Integration with Inventory Management Systems
+Connect to external systems for live data.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+💵 Sales and Revenue Tracking
+Monitor revenue and sales directly in the app.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔔 Advanced Notification System
+Customize restocking alerts and critical stock notifications.
+
+📤 Export Reports
+Generate and export inventory reports in various formats.
+
+🛡️ License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+🤝 Contributing
+Interested in contributing to the Smart Inventory Manager? Follow these steps:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/your-feature).
+Commit your changes (git commit -m 'Add feature').
+Push to your branch (git push origin feature/your-feature).
+Open a pull request, and let's work together!
